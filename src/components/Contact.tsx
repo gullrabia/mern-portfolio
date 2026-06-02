@@ -41,16 +41,16 @@ async function submitContactForm(data: ContactFormData): Promise<{ message: stri
 }
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "rabia.gull@example.com", href: "mailto:rabia.gull@example.com" },
+  { icon: Mail, label: "Email", value: "rabia.gullrabia369@gmail.com", href: "mailto:gullrabia369@gmail.com" },
   { icon: MapPin, label: "Location", value: "Pakistan", href: null },
   { icon: Phone, label: "Availability", value: "Mon – Fri, 9am – 6pm PKT", href: null },
 ];
 
 const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:rabia.gull@example.com", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/rabia-gull-007a84405/", label: "LinkedIn" },
+
+  { icon: Mail, href: "mailto:gullrabia369@gmail.com", label: "Email" },
 ];
 
 export default function Contact() {

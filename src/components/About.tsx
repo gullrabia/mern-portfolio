@@ -139,9 +139,9 @@ export default function About() {
             {/* Quick stats */}
             <motion.div variants={itemVariants} className="grid grid-cols-3 gap-3 mb-8">
               {[
-                { icon: Code2, value: "20+", label: "Projects" },
-                { icon: Star, value: "15+", label: "Clients" },
-                { icon: Briefcase, value: "2+", label: "Years" },
+                { icon: Code2, value: "50+", label: "Projects" },
+                { icon: Star, value: "20+", label: "Clients" },
+                { icon: Briefcase, value: "5+", label: "Years" },
               ].map(({ icon: Icon, value, label }) => (
                 <motion.div
                   key={label}

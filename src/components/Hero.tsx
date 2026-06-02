@@ -537,7 +537,7 @@ export default function Hero() {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/gullrabia",
+                  href: "https://github.com",
                   label: "GitHub",
                 },
 
