@@ -4,10 +4,10 @@ import { Briefcase, Calendar, MapPin, CheckCircle2 } from "lucide-react";
 
 const experiences = [
   {
-    title: "MERN Stack Developer",
+    title: "Full Stack Developer",
     company: "Freelance",
     location: "Remote — Pakistan",
-    period: "2023 – Present",
+    period: "2025 – Present",
     type: "Current",
     description:
       "Designing and delivering full-stack web applications for clients across various industries. Architecting scalable REST APIs with Node.js and Express, building responsive React frontends, and managing MongoDB databases.",
@@ -19,16 +19,32 @@ const experiences = [
     ],
   },
   {
-    title: "Junior Web Developer",
-    company: "Tech Solutions Agency",
+    title: "Junior Wordpess Developer",
+    company: "NexHome Properties",
     location: "Pakistan",
-    period: "2022 – 2023",
+    period: "2025",
     type: "Past",
     description:
-      "Collaborated with a cross-functional team to develop and maintain web applications. Focused on frontend development using React.js while learning backend integration with Node.js and Express.",
+      "Collaborated with a cross-functional team to develop and maintain web applications. Focused on frontend development using Wordpress Development.",
     achievements: [
-      "Contributed to 8 production web applications",
+      "Contributed to 2 production web applications",
       "Improved UI performance by 35% through component optimization",
+      "Integrated third-party APIs including payment gateways and maps",
+      "Participated in Agile sprints and code review processes",
+    ],
+  },
+
+  {
+    title: "Wordpess Developer",
+    company: "Branding Store Lasvel",
+    location: "Pakistan",
+    period: "2023 – 2025",
+    type: "Past",
+    description:
+      "Developed a premium fashion e-commerce platform for handcrafted beaded bags. Created a responsive shopping experience across desktop, tablet, and mobile devices. Implemented WooCommerce for product, inventory, and order management.",
+    achievements: [
+      "Contributed to 4+ production web applications",
+      "Improved UI performance by 75% through component optimization",
       "Integrated third-party APIs including payment gateways and maps",
       "Participated in Agile sprints and code review processes",
     ],

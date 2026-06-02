@@ -18,7 +18,7 @@ import {
 
 const typedPhrases = [
   "Building scalable web apps",
-  "2 years of full-stack experience",
+  "5 years of full-stack experience",
   "React • Node • MongoDB • Express",
   "Clean code. Modern UI.",
   "Turning ideas into reality",
@@ -301,7 +301,7 @@ function ProfilePhoto() {
           <Sparkles className="w-3.5 h-3.5 text-primary" />
 
           <div className="text-sm font-semibold">
-            MERN Specialist
+            Full Stack Specialist
           </div>
         </motion.div>
 
@@ -325,7 +325,7 @@ function ProfilePhoto() {
             </div>
 
             <div className="text-base font-bold gradient-text">
-              20+
+              50+
             </div>
           </div>
         </motion.div>
@@ -464,7 +464,7 @@ export default function Hero() {
               variants={itemVariants}
               className="text-xl sm:text-2xl font-semibold text-foreground mb-2"
             >
-              MERN Stack Developer
+              Full Stack Developer
             </motion.div>
 
             <motion.div
@@ -478,7 +478,7 @@ export default function Hero() {
               variants={itemVariants}
               className="text-muted-foreground leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0"
             >
-              A passionate full-stack developer with 2 years
+              A passionate full-stack developer with 5 years
               of experience building scalable web applications.
               I craft clean, efficient code and beautiful
               user experiences that make a real difference.
@@ -511,16 +511,15 @@ export default function Hero() {
 
                 Contact Me
               </motion.button>
-
               <motion.a
-                href="/resume.pdf"
-                download
+                href="https://www.cake.me/pdf/s--y8QU_JrR3UK7ztXz-NsdgA--/4awzE3.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-secondary/50 text-secondary hover:bg-secondary/10 font-semibold transition-all"
               >
                 <Download className="w-4 h-4" />
-
                 Resume
               </motion.a>
             </motion.div>
@@ -538,19 +537,19 @@ export default function Hero() {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com",
+                  href: "https://github.com/gullrabia",
                   label: "GitHub",
                 },
 
                 {
                   icon: Linkedin,
-                  href: "https://linkedin.com",
+                  href: "https://www.linkedin.com/in/rabia-gull-007a84405/",
                   label: "LinkedIn",
                 },
 
                 {
                   icon: Mail,
-                  href: "mailto:rabia.gull@example.com",
+                  href: "mailto:gullrabia369@gmail.com",
                   label: "Email",
                 },
               ].map(({ icon: Icon, href, label }) => (

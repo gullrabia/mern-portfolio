@@ -4,26 +4,26 @@ import { FolderKanban, Github, ExternalLink, Star } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce MERN Platform",
+    title: "Dubai Real Estate Platform",
     description:
-      "A full-featured e-commerce application with product management, shopping cart, secure payments via Stripe, user authentication, order tracking, and an admin dashboard.",
-    tech: ["React", "Node.js", "MongoDB", "Express", "Stripe", "Redux"],
+      "Developed and optimized modern WordPress-based business and real estate platforms featuring responsive UI/UX, SEO optimization, lead generation systems, dynamic content management, and scalable web solutions for luxury interior design and UAE real estate businesses.",
+    tech: ["Wordpress", "WooCommerce", "Html", "CSS", "Javascript", "Responsive Web Design"],
     github: "https://github.com",
-    demo: "https://example.com",
+    demo: "https://nexhome.ae",
     featured: true,
-    category: "Full-Stack",
+    category: "Wordpress",
     gradient: "from-violet-500/20 to-purple-500/10",
     accent: "#7c3aed",
   },
   {
-    title: "Task Management System",
+    title: "Branding Store Lasvel",
     description:
-      "A Kanban-style project management tool with drag-and-drop boards, real-time updates via Socket.io, team collaboration, deadline tracking, and notifications.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind"],
+      "Developed a luxury WooCommerce-based e-commerce platform for handcrafted beaded bags, featuring responsive design, secure online shopping, SEO optimization, product management, and a premium user experience that strengthens brand visibility and online sales.",
+    tech: ["Wordpress", "WooCommerce", "Custom Coding ", "3D Animations", "Responsvie Web Design"],
     github: "https://github.com",
-    demo: "https://example.com",
+    demo: "https://lasvel.com/",
     featured: true,
-    category: "Full-Stack",
+    category: "Wordpress",
     gradient: "from-cyan-500/20 to-teal-500/10",
     accent: "#06b6d4",
   },
@@ -39,21 +39,21 @@ const projects = [
 
     featured: true,
 
-    category: "Authentication System",
+    category: "Full-Stack",
 
     gradient: "from-blue-500/20 to-indigo-500/10",
 
     accent: "#3b82f6",
   },
   {
-    title: "Blog Publishing Platform",
+    title: "Business & Corporate Website",
     description:
-      "A modern blogging platform with a rich markdown editor, category tagging, search functionality, comment system, user profiles, and SEO optimization.",
-    tech: ["React", "Node.js", "MongoDB", "Express", "React-Quill"],
+      "A modern and responsive business website developed to establish a strong online presence and showcase company services, projects, and brand identity. The website features a clean user interface, mobile-friendly design, fast loading performance, and optimized user experience. It is designed to help businesses attract potential clients, present their services professionally, and improve their digital visibility.",
+    tech: ["WordPress", "Elementor Page Builder", "Custom WordPress Theme Development", "PHP", "mySql", "Responsive Web Design"],
     github: "https://github.com",
-    demo: "https://example.com",
+    demo: "https://hotpink-ram-926782.hostingersite.com/",
     featured: false,
-    category: "Full-Stack",
+    category: "Wordpress",
     gradient: "from-amber-500/20 to-orange-500/10",
     accent: "#f59e0b",
   },
@@ -66,6 +66,30 @@ const projects = [
     demo: "https://chat-frontend-bice.vercel.app/login",
     featured: true,
     category: "Full-Stack",
+    gradient: "from-green-500/20 to-emerald-500/10",
+    accent: "#10b981",
+  },
+  {
+    title: "Furniture Website",
+    description:
+      "A modern Furniture E-Commerce Website designed to showcase a wide range of home and office furniture products in an elegant and user-friendly interface. The platform focuses on delivering a smooth shopping experience where users can easily browse furniture categories such as sofas, beds, tables, chairs, wardrobes, and home décor items.",
+    tech: ["HTML", "Css", "javascript", "Php", "MySql", "Wordpress", "Elementor", "Responsive Design", "Hostinger Hosting"],
+    github: "https://github.com",
+    demo: "https://mediumpurple-woodpecker-431836.hostingersite.com/",
+    featured: true,
+    category: "Wordpress",
+    gradient: "from-green-500/20 to-emerald-500/10",
+    accent: "#10b981",
+  },
+  {
+    title: "Blogging Website",
+    description:
+    "Developed a Car Blogging Website (pakcarinfo.com) using HTML, CSS, JavaScript, PHP, and MySQL. The platform allows publishing and managing automotive blogs including car news, reviews, and maintenance guides. The website is fully responsive, SEO-optimized, and designed to provide a smooth and engaging reading experience for car enthusiasts.",
+    tech: ["HTML", "Css", "javascript", "Php", "MySql", "Wordpress", "Elementor", "Responsive Design", "Hostinger Hosting"],
+    github: "https://github.com",
+    demo: "https://pakcarinfo.com/",
+    featured: true,
+    category: "Wordpress",
     gradient: "from-green-500/20 to-emerald-500/10",
     accent: "#10b981",
   },
@@ -89,7 +113,7 @@ const projects = [
 
     featured: true,
 
-    category: "AI / Full-Stack",
+    category: "Full-Stack",
 
     gradient: "from-violet-500/20 to-cyan-500/10",
 
@@ -97,7 +121,7 @@ const projects = [
   }
 ];
 
-const categories = ["All", "Full-Stack", "Dashboard"];
+const categories = ["All", "Full-Stack", "Wordpress", " Custum Landing Pages" ];
 
 export default function Projects() {
   const ref = useRef<HTMLElement>(null);
@@ -125,7 +149,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A selection of real-world projects I&apos;ve built — from e-commerce platforms
+            A selection of real-world projects I&apos;ve built from e-commerce platforms
             to real-time apps, each solving genuine problems.
           </p>
         </motion.div>

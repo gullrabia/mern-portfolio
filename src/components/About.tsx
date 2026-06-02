@@ -3,13 +3,16 @@ import { motion, useInView, type Variants } from "framer-motion";
 import { MapPin, Mail, Calendar, Code2, Briefcase, Star, Download } from "lucide-react";
 
 const skills = [
-  { name: "JavaScript", level: 92 },
+  { name: "Wordpress Development", level: 98 },
+  { name: "Wordpress themes and plugins development", level: 92 },
   { name: "React.js", level: 90 },
   { name: "Node.js", level: 85 },
   { name: "Express.js", level: 85 },
   { name: "MongoDB", level: 82 },
-  { name: "TypeScript", level: 78 },
-  { name: "HTML & CSS", level: 95 },
+  { name: "Php Frameworks", level: 78 },
+    { name: "Laravel", level: 60 },
+
+  { name: "HTML, CSS & javascript " , level: 95 },
   { name: "Git & GitHub", level: 88 },
 ];
 
@@ -98,16 +101,13 @@ export default function About() {
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-muted-foreground leading-relaxed mb-4">
-              I&apos;m Rabia Gull, a dedicated MERN Stack Developer based in Pakistan with 2 years of
-              hands-on experience building modern, scalable web applications. My journey in software
-              development started with curiosity and has grown into a genuine passion for crafting
-              exceptional digital experiences.
+              I&apos; build scalable web applications, custom WordPress solutions, modern user interfaces, and business-focused digital experiences that help companies grow online With 5+ years of experience in software development, I specialize in creating high-performance websites, web applications, e-commerce platforms, and custom business solutions using modern technologies including React.js, Express.js, Node.js, Laravel, PHP, and WordPress.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-muted-foreground leading-relaxed mb-8">
-              I specialize in the full MERN stack MongoDB, Express.js, React, and Node.js and
-              thrive in environments where clean code, performance, and beautiful design intersect.
-              I believe great software is not just functional; it&apos;s elegant.
+              I specialize in the full stack MERN MongoDB, Express.js, React, and Node.js and
+              thrive in environments where clean code, performance, and beautiful design intersect
+               it&apos;s elegant.
             </motion.p>
 
             {/* Info grid */}
@@ -115,8 +115,8 @@ export default function About() {
               {[
                 { icon: MapPin, label: "Location", value: "Faisalabad, Pakistan" },
                 { icon: Mail, label: "Email", value: "gullrabia369@gmail.com" },
-                { icon: Calendar, label: "Experience", value: "2+ Years" },
-                { icon: Briefcase, label: "Status", value: "Available"},
+                { icon: Calendar, label: "Experience", value: "5+ Years" },
+                { icon: Briefcase, label: "Status", value: "Available" },
               ].map(({ icon: Icon, label, value }, i) => (
                 <motion.div
                   key={label}

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Sparkles, Globe, Server, Database, Palette, Zap, ShieldCheck } from "lucide-react";
+import { SiWordpress } from "react-icons/si";
 
 const services = [
   {
@@ -34,11 +35,11 @@ const services = [
     border: "border-green-500/20",
   },
   {
-    icon: Palette,
-    title: "UI/UX Implementation",
+    icon: SiWordpress,
+    title: "Wordpress Development",
     description:
       "Transforming designs into pixel-perfect, accessible, and animated interfaces. Responsive across all devices with smooth micro-interactions.",
-    features: ["Responsive design", "Framer Motion animations", "Accessibility (WCAG)", "Cross-browser support"],
+    features: ["Woo-Commerece", "Custom Themes Development", "Plugins Development", "Responsive design"],
     color: "text-pink-500",
     bg: "bg-pink-500/10",
     border: "border-pink-500/20",

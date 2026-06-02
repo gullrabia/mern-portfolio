@@ -3,10 +3,10 @@ import { motion, useInView } from "framer-motion";
 import { TrendingUp } from "lucide-react";
 
 const stats = [
-  { value: 2, suffix: "+", label: "Years Experience", description: "Building production apps" },
-  { value: 20, suffix: "+", label: "Projects Completed", description: "For clients worldwide" },
-  { value: 15, suffix: "+", label: "Happy Clients", description: "Satisfied customers" },
-  { value: 5, suffix: "+", label: "Technologies", description: "Mastered & in use" },
+  { value: 5, suffix: "+", label: "Years Experience", description: "Building production apps" },
+  { value: 50, suffix: "+", label: "Projects Completed", description: "For clients worldwide" },
+  { value: 20, suffix: "+", label: "Happy Clients", description: "Satisfied customers" },
+  { value: 8, suffix: "+", label: "Technologies", description: "Mastered & in use" },
 ];
 
 function AnimatedCounter({ value, suffix, inView }: { value: number; suffix: string; inView: boolean }) {

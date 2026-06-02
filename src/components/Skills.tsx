@@ -5,28 +5,50 @@ import {
   SiReact, SiNodedotjs, SiMongodb, SiExpress, SiJavascript, SiTypescript,
   SiHtml5, SiCss, SiTailwindcss, SiGit, SiGithub, SiRedux, SiNextdotjs,
   SiPostman, SiFigma, SiVercel,
+  SiLaravel,
+  SiBootstrap,
+  SiPhp,
+  SiWordpress,
+  SiMysql,
+  SiNetlify,
+  SiCpanel,
+  SiShopify,
+  SiSqlite,
 } from "react-icons/si";
 
 const techStack = [
   { name: "React.js", icon: SiReact, color: "#61DAFB", category: "Frontend" },
   { name: "Node.js", icon: SiNodedotjs, color: "#339933", category: "Backend" },
   { name: "MongoDB", icon: SiMongodb, color: "#47A248", category: "Database" },
-  { name: "Express.js", icon: SiExpress, color: "#888888", category: "Backend" },
+  { name: "Express.js", icon: SiExpress, color: "#FFFFFF", category: "Backend" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", category: "Language" },
-  { name: "TypeScript", icon: SiTypescript, color: "#3178C6", category: "Language" },
-  { name: "HTML5", icon: SiHtml5, color: "#E34F26", category: "Frontend" },
-  { name: "CSS3", icon: SiCss, color: "#1572B6", category: "Frontend" },
+  { name: "PHP", icon: SiPhp, color: "#777BB4", category: "Backend" },
+  { name: "Laravel", icon: SiLaravel, color: "#FF2D20", category: "Backend" },
+  { name: "WordPress", icon: SiWordpress, color: "#21759B", category: "CMS" },
+
+  { name: "Shopify", icon: SiShopify, color: "#95BF47", category: "CMS" },
+
+  { name: "HTML", icon: SiHtml5, color: "#E34F26", category: "Frontend" },
+  { name: "CSS", icon: SiCss, color: "#1572B6", category: "Frontend" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", category: "Frontend" },
+
   { name: "Redux", icon: SiRedux, color: "#764ABC", category: "Frontend" },
-  { name: "Next.js", icon: SiNextdotjs, color: "#888888", category: "Frontend" },
+  { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3", category: "Frontend" },
+
+  { name: "MySQL", icon: SiMysql, color: "#4479A1", category: "Database" },
+  { name: "SQL", icon: SiSqlite, color: "#003B57", category: "Database" },
+
   { name: "Git", icon: SiGit, color: "#F05032", category: "Tools" },
   { name: "GitHub", icon: SiGithub, color: "#888888", category: "Tools" },
   { name: "Postman", icon: SiPostman, color: "#FF6C37", category: "Tools" },
   { name: "Figma", icon: SiFigma, color: "#F24E1E", category: "Tools" },
-  { name: "Vercel", icon: SiVercel, color: "#888888", category: "Tools" },
+
+  { name: "Vercel", icon: SiVercel, color: "#000000", category: "Tools" },
+  { name: "Netlify", icon: SiNetlify, color: "#00C7B7", category: "Tools" },
+  { name: "cPanel", icon: SiCpanel, color: "#FF6C2C", category: "Tools" },
 ];
 
-const categories = ["All", "Frontend", "Backend", "Database", "Language", "Tools"];
+const categories = ["All", "Frontend", "Backend", "CMS", "Database", "Language", "Tools"];
 
 export default function Skills() {
   const ref = useRef<HTMLElement>(null);

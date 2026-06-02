@@ -19,7 +19,7 @@ const education = [
     ],
   },
   {
-    degree: "Full-Stack MERN Development",
+    degree: "Full-Stack Development",
     institution: "Udemy & Coursera",
     location: "Online",
     period: "2022 – 2024",
