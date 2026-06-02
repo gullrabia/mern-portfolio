@@ -41,7 +41,7 @@ async function submitContactForm(data: ContactFormData): Promise<{ message: stri
 }
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "rabia.gullrabia369@gmail.com", href: "mailto:gullrabia369@gmail.com" },
+  { icon: Mail, label: "Email", value: "gullrabia369@gmail.com", href: "mailto:gullrabia369@gmail.com" },
   { icon: MapPin, label: "Location", value: "Pakistan", href: null },
   { icon: Phone, label: "Availability", value: "Mon – Fri, 9am – 6pm PKT", href: null },
 ];

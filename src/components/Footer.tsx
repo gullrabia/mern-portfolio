@@ -13,8 +13,8 @@ const navLinks = [
 const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:rabia.gull@example.com", label: "Email" },
+  
+  { icon: Mail, href: "mailto:gullrabia369@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {
@@ -38,7 +38,7 @@ export default function Footer() {
               <span className="font-bold text-xl gradient-text">Rabia Gull</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-5 max-w-xs">
-              MERN Stack Developer passionate about building scalable web applications
+              Full Stack Developer passionate about building scalable web applications
               and beautiful user experiences.
             </p>
             <div className="flex gap-3">
@@ -88,7 +88,7 @@ export default function Footer() {
               Built With
             </h3>
             <div className="flex flex-wrap gap-2">
-              {["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Node.js", "Express"].map((tech) => (
+              {["React", "Tailwind CSS", "Framer Motion", "Node.js", "Express"].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 rounded-full border border-border text-xs text-muted-foreground bg-muted/40"
