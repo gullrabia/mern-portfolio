@@ -49,7 +49,7 @@ const projects = [
     title: "Business & Corporate Website",
     description:
       "A modern and responsive business website developed to establish a strong online presence and showcase company services, projects, and brand identity. The website features a clean user interface, mobile-friendly design, fast loading performance, and optimized user experience. It is designed to help businesses attract potential clients, present their services professionally, and improve their digital visibility.",
-    tech: ["WordPress", "Elementor Page Builder", "Custom WordPress Theme Development", "PHP", "mySql", "Responsive Web Design"],
+    tech: ["WordPress", "Elementor Page Builder", "Custom Wordpress Theme Development", "PHP", "mySql", "Responsive Web Design"],
     github: "https://github.com",
     demo: "https://hotpink-ram-926782.hostingersite.com/",
     featured: false,
@@ -118,10 +118,101 @@ const projects = [
     gradient: "from-violet-500/20 to-cyan-500/10",
 
     accent: "#8b5cf6",
-  }
+  },
+
+ {
+  title: "Real Estate WordPress Theme",
+
+  description:
+    "A premium custom WordPress theme developed specifically for real estate agencies, property dealers, and independent agents. Built with clean PHP architecture, responsive layouts, Elementor compatibility, dynamic property listings, advanced search filters, inquiry forms, and performance-focused optimization to deliver a seamless property browsing experience.",
+
+  tech: [
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Elementor",
+    "Responsive Design"
+  ],
+
+  github: "https://github.com/gullrabia",
+
+  demo: "https://greenyellow-opossum-852896.hostingersite.com/",
+
+  featured: true,
+
+  category: "Custom WordPress Theme",
+
+  gradient: "from-emerald-500/20 to-lime-500/10",
+
+  accent: "#10b981",
+},
+
+{
+  title: "Import & Export Business WordPress Theme",
+
+  description:
+    "A custom WordPress theme designed for import, export, logistics, and international trading companies. The theme includes dynamic service pages, company profile sections, responsive layouts, contact forms, SEO-friendly architecture, Elementor integration, and a modern user interface focused on generating business inquiries.",
+
+  tech: [
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Elementor",
+    "Responsive Design"
+  ],
+
+  github: "https://github.com/gullrabia",
+
+  demo: "https://dimgrey-eagle-684743.hostingersite.com/",
+
+  featured: true,
+
+  category: "Custom WordPress Theme",
+
+  gradient: "from-orange-500/20 to-yellow-500/10",
+
+  accent: "#f97316",
+},
+
+{
+  title: "Business & Corporate WordPress Theme",
+
+  description:
+    "A modern custom WordPress business theme built for startups, agencies, consulting firms, and corporate organizations. It features dynamic pages, service management, portfolio sections, blog functionality, contact forms, Elementor compatibility, responsive design, and optimized performance for professional business websites.",
+
+  tech: [
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Elementor",
+    "Responsive Design"
+  ],
+
+  github: "https://github.com/gullrabia",
+
+  demo: "https://lightgray-kudu-848431.hostingersite.com/",
+
+  featured: true,
+
+  category: "Custom WordPress Theme",
+
+  gradient: "from-blue-500/20 to-indigo-500/10",
+
+  accent: "#3b82f6",
+},
+
 ];
 
-const categories = ["All", "Full-Stack", "Wordpress", " Custum Landing Pages" ];
+const categories = ["All", "Full-Stack", "Wordpress", "Custom WordPress Theme" ];
 
 export default function Projects() {
   const ref = useRef<HTMLElement>(null);
